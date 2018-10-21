@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SpaceFarm</title>
+    <!-- menu -->
+    <style type="text/css">			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}	
+		</style>
+</head>
+   <style>
+body {
+        color: white;
+}
+p {
+        color:white;
+}
+</style>
+    <body bgcolor=”#000000″>
+    <center>
+     <!-- Logo -->
+    <img aling="center" src="Spacefarm.jpg" alt="SpaceFarm">
+    <hr>
+    <!-- menu -->
+    <div id="header">
+			<ul class="nav">
+				<li><a href="Inicio.html">Inicio</a></li>
+				<li><a href="Proyecto.html">Proyecto</a>
+				<li><a href="Estadisticas.html">Estadisticas</a>
+				<li><a href="ControlGeneral.html">Control general</a>
+				<li><a href="Fases.html">Fases</a>
+        </ul>
+		</div>
+   <!-- Texto Inicio -->
+   <br>
+   <br>
+   <br>
+   <FONT FACE="impact" SIZE=6 COLOR="white">
+Bienvenidos a SpaceFarm</FONT>
+  <br>
+  <FONT FACE="impact" SIZE=5 COLOR="Cornflowerblue">
+¿Que es?</FONT>
+  <!-- Contenido Escrito -->
+   <p stile="color: white">Basicamente nuestro proyecto surje de la necesidad de cultivar<br>alimentos en marte y eventualmente su cultivo en la superficie de marte.<br>
+       Este proceso se llevara acabo gracias a la creacion de un sistema automatizado<br>que nos permetira el monitoreo en el planeta rojo. <br>Los pasos principales que se realizaran de manera autonoma seran:<br> <li>Siembra:<br> Gracias al sistema de vacio ubicado en uno de los cabezales de la <b>Spacefarm v1.</b></li> <br> <li>Monitoreo:<br>Gracias a cada uno de los sensores perfectamente ubicados en el <b>Spacefarm v1</b> y a nuestro sistema de monitoreo relativo.</li> <br> <li>Cosecha:<br> Con la ayuda en un inicio de astronautas y a su vez con nuestro sistema automatizado; gracias a un auto aprendizaje del mismo.</li><br>
+       De cada una de las plantas que se pongan a prueba para buscar una adaptacion permanente a un largo plazo en la superficie de marte.
+        </p>
+        <!-- Logo de base -->
+        <img aling="center" src="SpaceDown.jpg" alt="SpaceDown">
+        </center>
+    <!-- Firebase --> 
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAWkpaskMGuMgIYhn8ntly2sWbE0IseXhI",
+    authDomain: "spacefarm-a74ce.firebaseapp.com",
+    databaseURL: "https://spacefarm-a74ce.firebaseio.com",
+    projectId: "spacefarm-a74ce",
+    storageBucket: "spacefarm-a74ce.appspot.com",
+    messagingSenderId: "993914038277"
+  };
+  firebase.initializeApp(config);
+    //no eliminar
+</script>
+</body>
+</html>

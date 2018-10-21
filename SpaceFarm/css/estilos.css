@@ -1,0 +1,16 @@
+/*Modelado de botones Para ControlGeneral*/
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+  }
+  .boton_personalizado:hover{
+    color: #FFFFFF;
+    background-color: #ffffff;
+  }
+</style>
